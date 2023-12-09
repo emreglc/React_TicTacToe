@@ -2,11 +2,13 @@ import Board from "./components/Board";
 import Moves from "./components/Moves";
 
 function App() {
+
+
     return (
         <div className="App">
+            <h1>WELCOME TO TIC-TAC-TOE</h1>
             <div className="container">
                 <Board />
-                <div className="status"></div>
                 <Moves />
             </div>
         </div>
